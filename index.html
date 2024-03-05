@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioBook - Dom Casmurro</title>
+    <link rel="shortcut icon" type="imagex/png" href="./images/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container-aplicativo">
+        <img id='capa' alt="Capa do livro." src="./images/dom-casmurro.jpeg"></img>
+        <audio id='audio-capitulo' src="/books/dom-casmurro/1.mp3"></audio>
+        <div id="informacoes-faixa">
+            <div id="capitulo">Capítulo 1</div>
+            <div id="nome-autor">Machado de Assis</div>
+        </div>
+        <div id="container-botoes">
+            <button id="anterior" class="bi bi-skip-start-fill"></button>
+            <button id="play-pause" class="bi bi-play-circle-fill"></button>
+            <button id="proximo" class="bi bi-skip-end-fill"></button>
+        </div>
+    </div>
+    <p>.<br>.<br>.<br>.</p>
+    <a id="SaibaMais" href="https://pt.wikipedia.org/wiki/Machado_de_Assis" target="_blank">-> Clique Aqui e Saiba Mais Sobre o Autor da Obra.</a>
+    <h2 id="direitos">Feito por: Miguel Meirelles, 04 de Março de 2024.</h2>
+    <script src="./script.js"></script>
+</body>
+</html>
